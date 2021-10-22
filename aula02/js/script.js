@@ -17,9 +17,7 @@ const handleRegisterMusicians = () => {
 };
 
 function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 const weapons = {
@@ -57,9 +55,9 @@ const handlePlayRockPaperAndScissors = () => {
   const input = +prompt(
     "Digite o número de sua escolha: Pedra(1), Papel(2) ou Tesoura(3)"
   );
-  const computer = getRandomInt(1, 4); // get a random number from 1 to 3
+  const computer = getRandomInt(1, 3); // get a random number from 1 to 3
 
-  if ([(1, 2, 3)].includes(input)) {
+  if ([1, 2, 3].includes(input)) {
     const message = `Escolha do usuário: ${formatChoice(
       input
     )} \nEscolha da máquina: ${formatChoice(
