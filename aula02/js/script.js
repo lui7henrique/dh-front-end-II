@@ -22,27 +22,21 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
+const weapons = {
+  1: { weakTo: 2, strongTo: 3 },
+  2: { weakTo: 3, strongTo: 1 },
+  3: { weakTo: 1, strongTo: 2 },
+};
+
 function matchStatus(user, computer) {
   if (user === computer) {
     return "Empate";
-  } else if (user === 1) {
-    if (computer === 2) {
-      return "Máquina venceu!";
-    } else if (computer === 3) {
-      return "Usuário venceu!";
-    }
-  } else if (user === 2) {
-    if (computer === 1) {
-      return "Usuário venceu!";
-    } else if (computer === 3) {
-      return "Computador venceu!";
-    }
-  } else if (user === 3) {
-    if (computer === 1) {
-      return "Computador venceu!";
-    } else if (computer === 2) {
-      return "Usuário venceu!";
-    }
+  } else if (weapons[user].strongTo === computer) {
+    // I won
+    return "Usuário venceu";
+  } else if (weapons[user].weakTo === computer) {
+    // I Lost
+    return "Máquina venceu";
   }
 }
 
@@ -65,14 +59,15 @@ const handlePlayRockPaperAndScissors = () => {
   );
   const computer = getRandomInt(1, 4); // get a random number from 1 to 3
 
-  const message = `Escolha do usuário: ${formatChoice(
-    input
-  )} \nEscolha da máquina: ${formatChoice(computer)} \nResultado: ${matchStatus(
-    input,
-    computer
-  )}`;
+  if ([(1, 2, 3)].includes(input)) {
+    const message = `Escolha do usuário: ${formatChoice(
+      input
+    )} \nEscolha da máquina: ${formatChoice(
+      computer
+    )} \nResultado: ${matchStatus(input, computer)}`;
 
-  [1, 2, 3].includes(input)
-    ? alert(message)
-    : alert("Insira uma opção válida!");
+    alert(message);
+  } else {
+    alert("Insira uma opção válida!");
+  }
 };
