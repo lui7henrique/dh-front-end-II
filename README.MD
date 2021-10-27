@@ -11,7 +11,7 @@
 #### 2. Manipulando o dom
 - [x] Aula 04 | Introdução ao DOM 
 - [x] Aula 04 | Introdução ao DOM  [encontro] - aula ao vivo | 25 de Outubro
-- [x] Aula 07 | Trabalhando com nós
+- [ ] Aula 07 | Trabalhando com nós
 - [ ] Aula 07 | Trabalhando com nós [encontro] - aula ao vivo | 28 de Outubro
 
 #### 3. Web reativa
