@@ -15,8 +15,8 @@
 - [x] Aula 07 | Trabalhando com nós [encontro] - aula ao vivo | 28 de Outubro
 
 #### 3. Web reativa
-- [ ] Aula 08 | Eventos com Javascript 
-- [ ] Aula 08 | Eventos com Javascript [encontro] - aula ao vivo | 29 de Outubro
+- [x] Aula 08 | Eventos com Javascript 
+- [x] Aula 08 | Eventos com Javascript [encontro] - aula ao vivo | 29 de Outubro
 - [ ] Aula 10 | Entrega de projeto [encontro] - aula ao vivo | 4 de Novembro
 - [ ] Aula 11 | Formulários – Parte 01
 - [ ] Aula 11 | Formulários – Parte 01 [encontro] - aula ao vivo | 5 de Novembro
