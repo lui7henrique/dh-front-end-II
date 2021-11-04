@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <title>My trips</title>
+  </head>
+
+  <body>
+    <aside>
+      <form action="" onsubmit="handleAddNewTrip(event)" id="addNewTrip">
+        <h1>Adicionar viagem</h1>
+        <input type="text" id="city" placeholder="Insira a cidade" required />
+        <input type="text" id="country" placeholder="Insira o país" required />
+        <input
+          type="text"
+          id="image"
+          placeholder="Insira a URL de uma imagem"
+          required
+        />
+        <button type="submit">Registrar</button>
+      </form>
+    </aside>
+
+    <main>
+      <h2>🧳 Viagens</h2>
+      <section class="card-list">
+        <div class="card">
+          <div class="img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1544618866-7a1a926891a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=765&q=100"
+              alt=""
+            />
+          </div>
+          <div class="infos">
+            <h3>São Paulo</h3>
+            <h4>Brasil</h4>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1535667065976-f466b235cc85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=100"
+              alt=""
+            />
+          </div>
+          <div class="infos">
+            <h3>Lençóis Maranhenses, Brasil</h3>
+            <h4>Brasil</h4>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1587499616354-f86e71f5f8ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=100"
+              alt=""
+            />
+          </div>
+          <div class="infos">
+            <h3>Cataratas do Iguaçu</h3>
+            <h4>Brasil</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
