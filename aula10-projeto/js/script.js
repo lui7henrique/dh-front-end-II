@@ -15,34 +15,24 @@ const handleAddNewTrip = (event) => {
 };
 
 const resetInput = () => {
-  const form = document.querySelector("form").reset();
+  document.querySelector("form").reset();
 };
 
 const handleCreateNewTrip = (city, country, imageUrl) => {
   const newCard = document.createElement("div");
-  newCard.setAttribute("class", "card");
-  newCard.setAttribute("id", index);
-
-  const imageWrapper = document.createElement("div");
-  imageWrapper.setAttribute("class", "img-wrapper");
-
-  const image = document.createElement("img");
-  image.setAttribute("src", imageUrl);
-  imageWrapper.appendChild(image);
-
-  const infos = document.createElement("div");
-  infos.setAttribute("class", "infos");
-
-  const h3 = document.createElement("h3");
-  h3.innerText = city;
-  infos.appendChild(h3);
-
-  const h4 = document.createElement("h4");
-  h4.innerText = country;
-  infos.appendChild(h4);
-
-  newCard.appendChild(imageWrapper);
-  newCard.appendChild(infos);
+  newCard.innerHTML = `
+    <div class="card">
+      <div class="img-wrapper">
+        <img
+          src="${imageUrl}"
+          alt="${city} image"
+        />
+      </div>
+      <div class="infos">
+        <h3>${city}</h3>
+        <h4>${country}</</h4>
+      </div>
+    </div>`;
 
   cardList.appendChild(newCard);
 };
