@@ -22,12 +22,14 @@ const handleCreateNewTrip = (city, country, imageUrl) => {
   const newCard = document.createElement("div");
   newCard.innerHTML = `
     <div class="card">
-      <div class="img-wrapper">
-        <img
-          src="${imageUrl}"
-          alt="${city} image"
-        />
-      </div>
+      <a href="${imageUrl}" target="_blank">
+        <div class="img-wrapper">
+          <img
+            src="${imageUrl}"
+            alt="${city} image"
+          />
+        </div>
+      </a>
       <div class="infos">
         <h3>${city}</h3>
         <h4>${country}</</h4>
