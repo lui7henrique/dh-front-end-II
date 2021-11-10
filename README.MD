@@ -17,11 +17,11 @@
 #### 3. Web reativa
 - [x] Aula 08 | Eventos com Javascript 
 - [x] Aula 08 | Eventos com Javascript [encontro] - aula ao vivo | 29 de Outubro
-- [ ] Aula 10 | Entrega de projeto [encontro] - aula ao vivo | 4 de Novembro
-- [ ] Aula 11 | Formulários – Parte 01
-- [ ] Aula 11 | Formulários – Parte 01 [encontro] - aula ao vivo | 5 de Novembro
-- [ ] Aula 13 | Formulários – Parte 02 
-- [ ] Aula 13 | Formulários – Parte 02 [encontro] - aula ao vivo | 8 de Novembro
+- [x] Aula 10 | Entrega de projeto [encontro] - aula ao vivo | 4 de Novembro
+- [x] Aula 11 | Formulários – Parte 01
+- [x] Aula 11 | Formulários – Parte 01 [encontro] - aula ao vivo | 5 de Novembro
+- [x] Aula 13 | Formulários – Parte 02 
+- [x] Aula 13 | Formulários – Parte 02 [encontro] - aula ao vivo | 8 de Novembro
 - [ ] Aula 14 | JSON e Storage
 - [ ] Aula 14 | JSON e Storage [encontro] - aula ao vivo | 11 de Novembro
 
