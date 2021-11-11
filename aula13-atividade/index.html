@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Aula 13</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Formulário de cadastro</h1>
+      </div>
+    </header>
+    <main>
+      <form action="" onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="Nome completo" id="name" />
+        <div class="hobbies">
+          <div class="hobby">
+            <label for="video-game">Video-game</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="video-game"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="guitarra">Guitarra</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="guitarra"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="cozinha">Cozinha</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="cozinha"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="leitura">Leitura</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="leitura"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="netflix">Netflix</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="netflix"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="corte">Corte</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="corte"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+          <div class="hobby">
+            <label for="costura">Costura</label>
+            <input
+              type="checkbox"
+              name="hobbies"
+              id="costura"
+              onClick="verifyCheckboxes()"
+            />
+          </div>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
