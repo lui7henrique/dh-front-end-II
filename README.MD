@@ -33,9 +33,9 @@
 
 - [x] Aula 16 | Introdução ao assincronismo
 - [x] Aula 16 | Introdução ao assincronismo [encontro] - aula ao vivo
-- [ ] Aula 17 | O que são APIs?
-- [ ] Aula 17 | O que são APIs? [encontro] - aula ao vivo
-- [ ] Aula 19 | Explorando APIs
-- [ ] Aula 19 | Explorando APIs [encontro] - aula ao vivo 22 de Novembro
+- [x] Aula 17 | O que são APIs?
+- [x] Aula 17 | O que são APIs? [encontro] - aula ao vivo
+- [x] Aula 19 | Explorando APIs
+- [x] Aula 19 | Explorando APIs [encontro] - aula ao vivo 22 de Novembro
 
 #### 5. Implementação prática
