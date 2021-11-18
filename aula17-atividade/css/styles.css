@@ -44,6 +44,18 @@ main {
   padding: 1rem;
 }
 
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .champion {
   display: flex;
   flex-direction: column;

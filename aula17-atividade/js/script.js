@@ -27,8 +27,6 @@ const loadData = async () => {
       </div>
     `;
     main.appendChild(championCard);
-
-    console.log(championCard);
   });
 
   const button = document.querySelector("button");
